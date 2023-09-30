@@ -1,0 +1,99 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('../../assets/common-bg.svg');
+    background-position: center;
+    position: relative;
+}
+.hero .hero-content{
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+}
+.hero .hero-content .hero-heading{
+    font-size: 60px;
+    color: #111111;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+@media (max-width: 1200px){
+    .hero .hero-content .hero-heading{
+        font-size: 56px;
+        margin-bottom: 27px;
+    }
+}
+@media (max-width: 992px) {
+    .hero .hero-content .hero-heading{
+        font-size: 53px;
+    }
+}
+@media (max-width: 768px) {
+    .hero .hero-content .hero-heading{
+        font-size: 38px;
+    }
+}
+.hero .hero-content .hero-info p{
+    font-size: 22px;
+    color: #333333;
+    max-width: 800px;
+    line-height: 1.6;
+    margin: auto;
+    margin-bottom: 35px;
+}
+@media (max-width: 1200px){
+    .hero .hero-content .hero-info p{
+        font-size: 20px;
+        margin-bottom: 32px;
+        max-width: 700px;
+    }
+}
+@media (max-width: 992px) {
+    .hero .hero-content .hero-info p{
+        font-size: 18px;
+        max-width: 600px;
+    }
+}
+@media (max-width: 768px) {
+    .hero .hero-content .hero-info p{
+        font-size: 17px;
+    }
+}
+
+.hero .mouse{
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero .mouse::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    animation: wheel 1.3s infinite;
+}
+
+@keyframes wheel {
+    0% {
+        top: 7px;
+        opacity: 1;
+    }
+    100% {
+        top: 26px;
+        opacity: 0;
+    }
+  }

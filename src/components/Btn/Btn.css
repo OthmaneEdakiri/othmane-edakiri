@@ -1,0 +1,44 @@
+.btn{
+    background: #7843e9;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    transition: transform .3s;
+    text-transform: uppercase;
+    
+}
+.btn-hero{
+    font-size: 20px;
+    padding: 15px 80px;
+}
+.btn-about,.btn-project{
+    padding: 15px 50px;
+}
+
+@media (max-width: 1200px){
+    .btn-hero{
+        font-size: 19px;
+        padding: 15px 75px;
+    }
+    .btn-about,.btn-project{
+        padding: 14px 47px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .btn-hero{
+        font-size: 18px;
+        padding: 14px 72px;
+    }
+    .btn-about,.btn-project{
+        padding: 13px 45px;
+        font-size: 14px;
+    }
+}
+.btn:hover{
+    transform: translateY(-4px);
+}

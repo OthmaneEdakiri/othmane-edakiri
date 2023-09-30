@@ -1,0 +1,23 @@
+.projects{
+    padding: 120px 0;
+}
+@media (max-width: 1200px){
+    .projects{
+        padding: 113px 0;
+    }
+}
+@media (max-width: 992px) {
+    .projects{
+        padding: 70px 0;
+    }
+}
+.projects .projects-content{
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+@media (max-width: 992px) {
+    .projects .projects-content{
+        gap: 80px;
+    }
+}
