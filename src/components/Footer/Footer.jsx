@@ -12,11 +12,11 @@ const Footer = () => {
                     <div className="footer-upper_social">
                         <span>Social</span>
                         <div className="footer-upper_social-content">
-                            <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
-                            <a href=""><i className="fa-brands fa-twitter"></i></a>
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-instagram"></i></a>
-                            <a href=""><i className="fa-brands fa-facebook-f"></i></a>
+                            <a target="blanck" href="https://www.linkedin.com/in/othmaneedakiri"><i className="fa-brands fa-linkedin-in"></i></a>
+                            <a target="blanck" href="https://twitter.com/othmane_edakiri"><i className="fa-brands fa-twitter"></i></a>
+                            <a target="blanck" href="https://github.com/OthmaneEdakiri"><i className="fa-brands fa-github"></i></a>
+                            <a target="blanck" href="https://www.instagram.com/othmaneedakiri"><i className="fa-brands fa-instagram"></i></a>
+                            <a target="blanck" href="https://www.facebook.com/othmanee.edakiri"><i className="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                 </div>

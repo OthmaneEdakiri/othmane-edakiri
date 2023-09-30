@@ -10,7 +10,7 @@ const Hero = () => {
                     <div className="hero-info">
                         <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
                         <Btn 
-                            info={{classN:"btn-hero",url:"",title:"projects"}} 
+                            info={{classN:"btn-hero",url:"#projects",title:"projects"}} 
                         />
                     </div>
                 </div>
