@@ -7,7 +7,11 @@
 @media (max-width: 992px) {
     .project{
         grid-template-columns: 1fr;
-        margin-bottom: 80px;
+    }
+}
+@media (max-width: 768px) {
+    .project{
+        row-gap: 20px;
     }
 }
 
@@ -47,6 +51,7 @@
 @media (max-width: 768px) {
     .project .project-content h3{
         font-size: 22px;
+        margin-bottom: 15px;
     }
 }
 .project .project-content p{
@@ -70,5 +75,6 @@
 @media (max-width: 768px) {
     .project .project-content p{
         font-size: 15px;
+        margin-bottom: 15px;
     }
 }
