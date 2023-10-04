@@ -1,14 +1,31 @@
 import "./Navbar.css"
 import {logo} from "../../assets"
 import {navLinks} from "../../constant"
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(false)
 
-    const eventHandler =()=>{
-        setToggle(prev => !prev)
-    }
+    const eventHandler =()=> setToggle(prev => !prev)
+
+    const navbar=useRef(null);
+
+    const toggleButton = useRef(null);
+
+    useEffect(()=>{
+        const handleClickOutside = (event)=>{
+            if(event.target !== navbar.current && event.target !== toggleButton.current){
+                console.log("you click outside");
+                setToggle(false)
+            }
+
+        }
+        document.addEventListener("click",handleClickOutside);
+        
+        return ()=>(
+            document.removeEventListener("click",handleClickOutside)
+        )
+    },[])
     return (
         <div className='navbar'>
             <div className="container">
@@ -23,11 +40,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div onClick={eventHandler} className="bar-container">
-                        <i className={`fa-solid ${toggle?'fa-xmark':'fa-bars'}`}></i>
+                        <i ref={toggleButton} className={`fa-solid ${toggle?'fa-xmark':'fa-bars'}`}></i>
                     </div>
                 </div>
             </div>
-            <ul className={`nav-sm ${toggle ? 'nav-sm_active' : null}`}>
+            <ul ref={navbar} className={`nav-sm ${toggle ? 'nav-sm_active' : null}`}>
                 {navLinks.map(link => <li key={link.id}><a href={`#${link.id}`}>{link.title}</a></li>)}
             </ul>
         </div>
