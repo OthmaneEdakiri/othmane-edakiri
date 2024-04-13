@@ -1,7 +1,8 @@
 import "./Navbar.css"
 import {logo} from "../../assets"
 import {navLinks} from "../../constant"
-import { useEffect, useRef, useState } from "react"
+import { useContext, useEffect, useRef, useState } from "react"
+import { LinkActiveContext } from "../../App"
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(false)
@@ -11,6 +12,8 @@ const Navbar = () => {
     const navbar=useRef(null);
 
     const toggleButton = useRef(null);
+
+    const {linkActive} = useContext(LinkActiveContext);
 
     useEffect(()=>{
         const handleClickOutside = (event)=>{
@@ -36,7 +39,7 @@ const Navbar = () => {
                     </div>
                     <div className="nav-container">
                         <ul className="nav">
-                            {navLinks.map(link => <li key={link.id}><a href={`#${link.id}`}>{link.title}</a></li>)}
+                            {navLinks.map(link => <li key={link.id}><a className={link.id === linkActive && 'active'} href={`#${link.id}`}>{link.title}</a></li>)}
                         </ul>
                     </div>
                     <div onClick={eventHandler} className="bar-container">
@@ -45,7 +48,7 @@ const Navbar = () => {
                 </div>
             </div>
             <ul ref={navbar} className={`nav-sm ${toggle ? 'nav-sm_active' : null}`}>
-                {navLinks.map(link => <li key={link.id}><a href={`#${link.id}`}>{link.title}</a></li>)}
+                {navLinks.map(link => <li key={link.id}><a className={link.id === linkActive && 'active'} href={`#${link.id}`}>{link.title}</a></li>)}
             </ul>
         </div>
     )

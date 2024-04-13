@@ -1,10 +1,15 @@
 import "./Projects.css";
 import { Project } from "../../components";
 import { projects } from "../../constant";
+import { useContext } from "react";
+import { SectionsContext } from "../../App";
 
 const Projects = () => {
+
+    const {sectionsRefs} = useContext(SectionsContext);
+
     return (
-        <div className="projects" id="projects">
+        <div ref={sectionsRefs.projects} className="projects" id="projects">
             <div className="container">
                 <div className="heading-container">
                     <h1>PROJECTS</h1>

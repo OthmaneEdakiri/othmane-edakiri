@@ -1,4 +1,4 @@
-import {  tourer,caffena , bandi, trippy } from "../assets";
+import {  tourer,caffena , bandi, trippy, barberShop } from "../assets";
 export const navLinks = [
     {
         id: "home",
@@ -45,45 +45,68 @@ export const skills = [
     },
     {
         id : "sql",
-        title : "SQL Basics",
+        title : "SQL",
     },
     {
         id : "php",
-        title : "PHP Basics",
+        title : "PHP",
+    },
+    {
+        id : "laravel",
+        title : "Laravel",
+    },
+    {
+        id : "mongodb",
+        title : "Mongo Db",
+    },
+    {
+        id : "express",
+        title : "Express",
     },
     {
         id : "python",
         title : "Python Basics",
     },
+    {
+        id : "git",
+        title : "Git / GitHub",
+    },
 ]
 
 export const projects = [
     {
+        id : "barberShop",
+        src : barberShop,
+        title : "Barber Shop",
+        desc : "Barber-Shop project is a custom web application designed for a barber salon, providing a wonderful experience for customers and effective management for the salon owner.",
+        url : "https://othmaneedakiri.github.io/barber-shop/"
+    },
+    {
         id : "tourer",
         src : tourer,
         title : "Tourer",
-        desc : "",
+        desc : "Tourer is a bespoke web platform tailored for travel enthusiasts, offering an immersive experience for users and seamless management tools for travel operators",
         url : "https://othmaneedakiri.github.io/tourer.github.io/"
     },
     {
         id : "caffena",
         src : caffena,
         title : "Caffena",
-        desc : "",
+        desc : "Caffena is a tailored e-commerce platform catering to the discerning coffee enthusiasts",
         url : "https://othmaneedakiri.github.io/caffena.github.io/"
     },
     {
         id : "bandi",
         src : bandi,
         title : "Bandi",
-        desc : "",
+        desc : "Bandi is a side project created to apply what I have learned from HTML/CSS/JS.",
         url : "https://othmaneedakiri.github.io/bandi.github.io/"
     },
     {
         id : "trippy",
         src : trippy,
         title : "Trippy",
-        desc : "",
+        desc : "Trippy is a bespoke web platform tailored for travel enthusiasts, offering an immersive experience for users and seamless management tools for travel operators",
         url : ""
     },
 ]

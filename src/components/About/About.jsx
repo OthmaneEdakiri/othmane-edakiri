@@ -1,10 +1,15 @@
 import "./About.css"
 import {skills} from "../../constant"
 import {Btn} from "../../components"
+import { SectionsContext } from "../../App";
+import { useContext } from "react";
 
 const About = () => {
+
+    const {sectionsRefs} = useContext(SectionsContext);
+
     return (
-        <div className="about" id="about">
+        <div ref={sectionsRefs.about} className="about" id="about">
             <div className="container">
                 <div className="heading-container">
                     <h1>ABOUT ME</h1>

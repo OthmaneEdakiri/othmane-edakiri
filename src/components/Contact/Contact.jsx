@@ -1,8 +1,13 @@
+import { useContext } from "react";
+import { SectionsContext } from "../../App";
 import "./Contact.css";
 
 const Contact = () => {
+
+    const {sectionsRefs} = useContext(SectionsContext);
+
     return (
-        <div className="contact" id="contact">
+        <div ref={sectionsRefs.contact} className="contact" id="contact">
             <div className="container">
                 <div className="heading-container">
                     <h1>CONTACT</h1>
@@ -22,7 +27,7 @@ const Contact = () => {
                             <label htmlFor="message">Message</label>
                             <textarea name="" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
                         </div>
-                        <input type="submit" className="submit-btn" value='submit' />
+                        <input disabled type="submit" className="submit-btn" value='submit' />
                     </form>
                 </div>
             </div>

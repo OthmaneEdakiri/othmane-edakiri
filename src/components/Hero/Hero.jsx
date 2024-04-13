@@ -1,9 +1,14 @@
+import { useContext } from "react"
 import {Btn, Social} from "../../components"
 import "./Hero.css"
+import { SectionsContext } from "../../App"
 
 const Hero = () => {
+
+    const {sectionsRefs} = useContext(SectionsContext);
+
     return (
-        <div className="hero" id="home">
+        <div ref={sectionsRefs.home} className="hero" id="home">
             <div className="container">
                 <div className="hero-content">
                     <h1 className="hero-heading">HEY, I'M OTHMANE EDAKIRI</h1>
