@@ -1,4 +1,4 @@
-import {  tourer,caffena , bandi, trippy, barberShop } from "../assets";
+import {  tourer,caffena , bandi, trippy, barberShop, ebook } from "../assets";
 export const navLinks = [
     {
         id: "home",
@@ -82,6 +82,13 @@ export const projects = [
         url : "https://othmaneedakiri.github.io/barber-shop/"
     },
     {
+        id : "ebook",
+        src : ebook,
+        title : "Ebook",
+        desc : "ebook is an online platform dedicated to book enthusiasts of all genres. ",
+        url : "https://othmaneedakiri.github.io/ebook/"
+    },
+    {
         id : "tourer",
         src : tourer,
         title : "Tourer",
@@ -102,11 +109,5 @@ export const projects = [
         desc : "Bandi is a side project created to apply what I have learned from HTML/CSS/JS.",
         url : "https://othmaneedakiri.github.io/bandi.github.io/"
     },
-    {
-        id : "trippy",
-        src : trippy,
-        title : "Trippy",
-        desc : "Trippy is a bespoke web platform tailored for travel enthusiasts, offering an immersive experience for users and seamless management tools for travel operators",
-        url : ""
-    },
+    
 ]

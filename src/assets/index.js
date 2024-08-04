@@ -12,6 +12,7 @@ import book from "./book-dark.svg";
 import github from "./github-dark.svg";
 import mockup from "./project-mockup-example.jpeg"
 import barberShop from './barber-shop.png';
+import ebook from './ebook.png'
 
 export {
     bandi as bandi,
@@ -27,5 +28,6 @@ export {
     book as book,
     github as github,
     mockup as mockup,
-    barberShop as barberShop
+    barberShop as barberShop,
+    ebook as ebook
 }
