@@ -27,6 +27,7 @@ import {
   AvatarMed,
   AvatarHamza,
   AvatarReed,
+  ProjectBraxton,
 } from "@/assets";
 import { Github, Linkedin } from "lucide-react";
 
@@ -171,6 +172,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    name: "Braxton",
+    description:
+      "personal portfolio project for a designer is a professional website aimed at showcasing the designer's skills, past projects",
+    url: "https://othmaneedakiri.github.io/braxton/",
+    previewImage: ProjectBraxton,
+    technologies: [
+      "React",
+      "Tailwindcss",
+      "ShadCN",
+    ],
+  },
+  {
     name: "Everstore",
     description:
       "Everstore is a modern and user-friendly platform where you can easily browse, purchase, and manage shoes.",
@@ -192,14 +205,14 @@ export const PROJECTS = [
     previewImage: ProjectEbook,
     technologies: ["React", "Tailwindcss"],
   },
-  {
-    name: "Barber shop",
-    description:
-      "Barber-Shop project is a custom web application designed for a barber salon, providing a wonderful experience for customers and effective management for the salon owner.",
-    url: "https://othmaneedakiri.github.io/barber-shop/",
-    previewImage: ProjectBarberShop,
-    technologies: ["React", "Styled Components"],
-  },
+  // {
+  //   name: "Barber shop",
+  //   description:
+  //     "Barber-Shop project is a custom web application designed for a barber salon, providing a wonderful experience for customers and effective management for the salon owner.",
+  //   url: "https://othmaneedakiri.github.io/barber-shop/",
+  //   previewImage: ProjectBarberShop,
+  //   technologies: ["React", "Styled Components"],
+  // },
 ];
 
 export const TESTIMONIALS = [

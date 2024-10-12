@@ -24,6 +24,7 @@ import LogoBourachdiLight from "@/assets/logos/logo-bourachdi-light.png";
 import ProjectBarberShop from "@/assets/project-barber-shop.jpg";
 import ProjectEbook from "@/assets/project-ebook.jpg";
 import ProjectEverstore from "@/assets/project-everstore.jpg";
+import ProjectBraxton from "@/assets/project-braxton.png"
 import AvatarMed from "@/assets/avatar-unknown.svg";
 import AvatarHamza from "@/assets/avatar-unknown.svg";
 import AvatarReed from "@/assets/avatar-reed.png";
@@ -53,6 +54,7 @@ export {
   LogoBourachdiLight,
   ProjectBarberShop,
   ProjectEverstore,
+  ProjectBraxton,
   ProjectEbook,
   AvatarHamza,
   AvatarMed,
