@@ -24,10 +24,15 @@ import LogoBourachdiLight from "@/assets/logos/logo-bourachdi-light.png";
 import ProjectBarberShop from "@/assets/project-barber-shop.jpg";
 import ProjectEbook from "@/assets/project-ebook.jpg";
 import ProjectEverstore from "@/assets/project-everstore.jpg";
-import ProjectBraxton from "@/assets/project-braxton.png"
+import ProjectBraxton from "@/assets/project-braxton.png";
 import AvatarMed from "@/assets/avatar-unknown.svg";
 import AvatarHamza from "@/assets/avatar-unknown.svg";
 import AvatarReed from "@/assets/avatar-reed.png";
+import ProjectBKDP from "@/assets/project-bkdp.jpg";
+import ProjectDLK from "@/assets/project-dlk.jpg";
+import HighnessLogo from "@/assets/logos/highness-logo.png";
+import LogoWordpress from "@/assets/logos/icon-wordpress.svg";
+
 export {
   heroImage,
   LogoGit,
@@ -58,5 +63,9 @@ export {
   ProjectEbook,
   AvatarHamza,
   AvatarMed,
-  AvatarReed
+  AvatarReed,
+  ProjectBKDP,
+  ProjectDLK,
+  HighnessLogo,
+  LogoWordpress
 };

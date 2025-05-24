@@ -15,7 +15,7 @@ const ExperienceDetails = ({
       <div className="md:w-1/4 max-md:order-1">
         <ImageWrapper
           src={logo}
-          className={"h-[28px]"}
+          className={"h-[48px]"}
           srcForDarkMode={darkModeLogo}
         />
       </div>

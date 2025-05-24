@@ -29,9 +29,9 @@ const Header = () => {
     <div className="fixed w-full left-0 top-0 backdrop-blur-lg z-30">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8">
         <div className="flex items-center justify-between h-[62px]">
-          <h1 className="text-gray md:text-3xl text-2xl font-bold tracking-[-0.02em]">
+          <a href="#" className="text-gray md:text-3xl text-2xl font-bold tracking-[-0.02em]">
             &lt;OE /&gt;
-          </h1>
+          </a>
           <div className="md:flex items-center gap-6 hidden">
             <ul className="flex gap-6 text-gray transition-colors font-medium">
               {NAV_LINKS.map((navLink, index) => (
