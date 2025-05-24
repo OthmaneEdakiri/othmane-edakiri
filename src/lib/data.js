@@ -28,35 +28,39 @@ import {
   AvatarHamza,
   AvatarReed,
   ProjectBraxton,
+  ProjectBKDP,
+  ProjectDLK,
+  HighnessLogo,
+  LogoWordpress,
 } from "@/assets";
 import { Github, Linkedin } from "lucide-react";
 
 export const NAV_LINKS = [
   {
-    label: 'About',
-    href: '#about',
+    label: "About",
+    href: "#about",
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: "Work",
+    href: "#work",
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: "Testimonials",
+    href: "#testimonials",
   },
   {
-    label: 'Contact',
-    href: '#contact',
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
 export const SOCIAL_LINKS = [
   {
-    icon: Linkedin ,
+    icon: Linkedin,
     url: "https://www.linkedin.com/in/othmaneedakiri/",
   },
   {
-    icon: Github ,
+    icon: Github,
     url: "https://github.com/OthmaneEdakiri",
   },
 ];
@@ -92,11 +96,11 @@ export const TECHNOLOGIES = [
     logo: LogoLaravel,
     url: "https://laravel.com/",
   },
-  {
-    label: "Node.js",
-    logo: LogoNodejs,
-    url: "https://nodejs.org/en",
-  },
+  // {
+  //   label: "Node.js",
+  //   logo: LogoNodejs,
+  //   url: "https://nodejs.org/en",
+  // },
   {
     label: "Express.js",
     logo: LogoExpress,
@@ -145,43 +149,72 @@ export const TECHNOLOGIES = [
     darkModeLogo: LogoGithubLight,
     url: "https://github.com/",
   },
+  {
+    label: "Wordpress",
+    logo: LogoWordpress,
+    url: "https://wordpress.org/",
+  },
 ];
 
 export const EXPERIENCES = [
   {
-    logo: LogoUpwork,
-    logoAlt: "Upwork logo",
-    position: "Independent Freelancer",
-    startDate: new Date(2024, 6),
-    currentlyWorkHere: true,
+    logo: HighnessLogo,
+    logoAlt: "highness logo",
+    position: "Full Stack Developer",
+    startDate: new Date(2024, 10),
+    endDate: new Date(2025, 4),
     summary: [
-      "Worked with a variety of technologies, including React, Laravel, Tailwindcss, Bootstrap, Mysql, and others.",
+      " Converting UI/UX designs into responsive and interactive web pages using HTML, CSS, and jQuery.",
+      " Participating in the development of an e-commerce project using Shopify, with a focus on customization and enhancing user experience.",
+      " uilding and customizing WordPress themes to meet client needs while ensuring performance and usability.",
     ],
   },
+  // {
+  //   logo: LogoUpwork,
+  //   logoAlt: "Upwork logo",
+  //   position: "Independent Freelancer",
+  //   startDate: new Date(2024, 6),
+  //   currentlyWorkHere: true,
+  //   summary: [
+  //     "Worked with a variety of technologies, including React, Laravel, Tailwindcss, Bootstrap, Mysql, and others.",
+  //   ],
+  // },
 
-  {
-    logo: LogoBourachdi,
-    darkModeLogo: LogoBourachdiLight,
-    logoAlt: "Bourachdi logo",
-    position: "Full Stack Developer",
-    startDate: new Date(2024, 3),
-    endDate: new Date(2024, 4),
-    summary: ["Worked as a full stack developer (React / Laravel)."],
-  },
+  // {
+  //   logo: LogoBourachdi,
+  //   darkModeLogo: LogoBourachdiLight,
+  //   logoAlt: "Bourachdi logo",
+  //   position: "Full Stack Developer",
+  //   startDate: new Date(2024, 3),
+  //   endDate: new Date(2024, 4),
+  //   summary: ["Worked as a full stack developer (React / Laravel)."],
+  // },
 ];
 
 export const PROJECTS = [
+  {
+    name: "BiglarKinyan Design",
+    description:
+    "A professional website developed during my internship at Company Highness for a luxury interior design firm, featuring a clean and elegant layout that highlights completed projects and services offered.",
+    url: "https://bkdp.ca/",
+    previewImage: ProjectBKDP,
+    technologies: ["WordPress"],
+  },
+  {
+    name: "Design Line Kitchens",
+    description:
+      "A custom website developed during my internship at Company Highness for a kitchen design company, featuring a clean and professional design that reflects the brand’s upscale identity.",
+    url: "https://www.designlinekitchens.com/",
+    previewImage: ProjectDLK,
+    technologies: ["Tailwindcss", "JQuery"],
+  },
   {
     name: "Braxton",
     description:
       "personal portfolio project for a designer is a professional website aimed at showcasing the designer's skills, past projects",
     url: "https://othmaneedakiri.github.io/braxton/",
     previewImage: ProjectBraxton,
-    technologies: [
-      "React",
-      "Tailwindcss",
-      "ShadCN",
-    ],
+    technologies: ["React", "Tailwindcss", "ShadCN"],
   },
   {
     name: "Everstore",
@@ -197,14 +230,14 @@ export const PROJECTS = [
       "ShadCN",
     ],
   },
-  {
-    name: "Ebook",
-    description:
-      "ebook is an online platform dedicated to book enthusiasts of all genres.",
-    url: "https://othmaneedakiri.github.io/ebook/",
-    previewImage: ProjectEbook,
-    technologies: ["React", "Tailwindcss"],
-  },
+  // {
+  //   name: "Ebook",
+  //   description:
+  //     "ebook is an online platform dedicated to book enthusiasts of all genres.",
+  //   url: "https://othmaneedakiri.github.io/ebook/",
+  //   previewImage: ProjectEbook,
+  //   technologies: ["React", "Tailwindcss"],
+  // },
   // {
   //   name: "Barber shop",
   //   description:
