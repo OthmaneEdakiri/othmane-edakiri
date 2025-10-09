@@ -15,9 +15,7 @@ import LogoMysqlLight from "@/assets/logos/logo-mysql-light.svg";
 import LogoGithub from "@/assets/logos/logo-github.svg";
 import LogoGithubLight from "@/assets/logos/logo-github-light.svg";
 import LogoSql from "@/assets/logos/logo-sql.svg";
-import LogoPython from "@/assets/logos/logo-python.svg";
 import LogoBootstrap from "@/assets/logos/logo-bootstrap.svg";
-import LogoSass from "@/assets/logos/icon-sass.svg";
 import LogoUpwork from "@/assets/logos/logo-upwork.svg";
 import LogoBourachdi from "@/assets/logos/logo-bourachdi.png";
 import LogoBourachdiLight from "@/assets/logos/logo-bourachdi-light.png";
@@ -32,6 +30,12 @@ import ProjectBKDP from "@/assets/project-bkdp.jpg";
 import ProjectDLK from "@/assets/project-dlk.jpg";
 import HighnessLogo from "@/assets/logos/highness-logo.png";
 import LogoWordpress from "@/assets/logos/icon-wordpress.svg";
+import ProjectSilsource from "@/assets/project-silsource.jpg";
+import ProjectUpi from "@/assets/project-upi.jpg";
+import LogoNextJs from "@/assets/logos/icon-nextjs.svg";
+import LogoNextJsLight from "@/assets/logos/logo-next-js-light.svg";
+import Postgresql from "@/assets/logos/logo-postgresql.svg"
+import aboutImage from "@/assets/othmane.png"
 
 export {
   heroImage,
@@ -51,9 +55,7 @@ export {
   LogoSql,
   LogoGithubLight,
   LogoGithub,
-  LogoPython,
   LogoBootstrap,
-  LogoSass,
   LogoUpwork,
   LogoBourachdi,
   LogoBourachdiLight,
@@ -67,5 +69,11 @@ export {
   ProjectBKDP,
   ProjectDLK,
   HighnessLogo,
-  LogoWordpress
+  LogoWordpress,
+  ProjectSilsource,
+  ProjectUpi,
+  LogoNextJs,
+  LogoNextJsLight,
+  Postgresql,
+  aboutImage
 };

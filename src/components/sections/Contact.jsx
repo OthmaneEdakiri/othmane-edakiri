@@ -67,9 +67,9 @@ const Contact = () => {
             </div>
           )}
           <Phone className="text-normal md:h-8 md:w-8" />
-          <h5 className="text-lg md:text-4xl font-semibold">+212 673993884</h5>
+          <h5 className="text-lg md:text-4xl font-semibold">+212 643999144</h5>
           <Button
-            onClick={() => handleCopyClick("+212 673993884", "phone")}
+            onClick={() => handleCopyClick("+212 643999144", "phone")}
             size="icon"
             variant="outline"
             className="border-none bg-transparent"

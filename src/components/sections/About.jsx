@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "@/components/layout/Container";
-import { heroImage } from "@/assets";
+import { aboutImage } from "@/assets";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
           <div className="lg:w-[350px] lg:h-[420px] md:w-[300px] md:h-[360px] w-[250px] h-[300px] relative md:mx-0 mx-auto">
             <span className="absolute md:bottom-[-50px] bottom-[-30px] md:left-[-50px] left-[-30px] md:w-[calc(100%+20px)] w-[calc(100%+60px)] h-[calc(100%+20px)] md:border-[40px] border-[20px] md:border-t-0 border-t-0 md:border-r-0 border-gray"></span>
             <img
-              src={heroImage}
+              src={aboutImage}
               className="object-cover w-full h-full"
               alt=""
             />
@@ -35,7 +35,7 @@ const About = () => {
             I began my journey as a web developer in 2021, and since then, I’ve
             continued to grow and evolve as a developer, taking on new
             challenges and learning the latest technologies along the way. Now,
-            in my mid-twenties, 3 years after starting my web development
+            in my mid-twenties, {(new Date()).getFullYear() - 2021} years after starting my web development
             journey, I'm building cutting-edge web applications using modern
             technologies such as React.js, Laravel, TailwindCSS, Bootstrap, and
             many more.

@@ -15,9 +15,7 @@ import {
   LogoSql,
   LogoGithubLight,
   LogoGithub,
-  LogoPython,
   LogoBootstrap,
-  LogoSass,
   LogoBourachdi,
   LogoBourachdiLight,
   LogoUpwork,
@@ -32,6 +30,11 @@ import {
   ProjectDLK,
   HighnessLogo,
   LogoWordpress,
+  ProjectSilsource,
+  ProjectUpi,
+  LogoNextJs,
+  LogoNextJsLight,
+  Postgresql,
 } from "@/assets";
 import { Github, Linkedin } from "lucide-react";
 
@@ -77,11 +80,6 @@ export const TECHNOLOGIES = [
     url: "https://www.php.net/",
   },
   {
-    label: "Python",
-    logo: LogoPython,
-    url: "https://www.python.org/",
-  },
-  {
     label: "Typescript",
     logo: LogoTypescript,
     url: "https://www.typescriptlang.org/",
@@ -90,6 +88,12 @@ export const TECHNOLOGIES = [
     label: "React",
     logo: LogoReact,
     url: "https://react.dev/",
+  },
+  {
+    label: "NextJs",
+    logo: LogoNextJs,
+    darkModeLogo: LogoNextJsLight,
+    url: "https://nextjs.org/",
   },
   {
     label: "Laravel",
@@ -119,6 +123,11 @@ export const TECHNOLOGIES = [
     url: "https://www.mongodb.com/",
   },
   {
+    label: "Postgresql",
+    logo: Postgresql,
+    url: "https://www.postgresql.org/",
+  },
+  {
     label: "Sql",
     logo: LogoSql,
     url: "https://sql.sh/",
@@ -132,11 +141,6 @@ export const TECHNOLOGIES = [
     label: "Bootstrap",
     logo: LogoBootstrap,
     url: "https://getbootstrap.com/",
-  },
-  {
-    label: "Sass/Scss",
-    logo: LogoSass,
-    url: "https://sass-lang.com/",
   },
   {
     label: "Git",
@@ -195,7 +199,7 @@ export const PROJECTS = [
   {
     name: "BiglarKinyan Design",
     description:
-    "A professional website developed during my internship at Company Highness for a luxury interior design firm, featuring a clean and elegant layout that highlights completed projects and services offered.",
+      "A professional website developed during my internship at Company Highness for a luxury interior design firm, featuring a clean and elegant layout that highlights completed projects and services offered.",
     url: "https://bkdp.ca/",
     previewImage: ProjectBKDP,
     technologies: ["WordPress"],
@@ -206,30 +210,46 @@ export const PROJECTS = [
       "A custom website developed during my internship at Company Highness for a kitchen design company, featuring a clean and professional design that reflects the brand’s upscale identity.",
     url: "https://www.designlinekitchens.com/",
     previewImage: ProjectDLK,
-    technologies: ["Tailwindcss", "JQuery"],
+    technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
   },
   {
-    name: "Braxton",
+    name: "Silsource",
     description:
-      "personal portfolio project for a designer is a professional website aimed at showcasing the designer's skills, past projects",
-    url: "https://othmaneedakiri.github.io/braxton/",
-    previewImage: ProjectBraxton,
-    technologies: ["React", "Tailwindcss", "ShadCN"],
+      "A website developed during my internship at Highness for Silsource™ Inc., showcasing their expertise in product sourcing and tailored solutions through a modern, user-friendly design.",
+    url: "https://www.silsource.com/",
+    previewImage: ProjectSilsource,
+    technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
   },
   {
-    name: "Everstore",
+    name: "UPI",
     description:
-      "Everstore is a modern and user-friendly platform where you can easily browse, purchase, and manage shoes.",
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7239740844394573824/",
-    previewImage: ProjectEverstore,
-    technologies: [
-      "React",
-      "Laravel",
-      "Larvel/breeze",
-      "Tailwindcss",
-      "ShadCN",
-    ],
+      "A custom website developed during my internship at Highness for a leading wholesale distributor of chemical products. The project focused on creating a modern, responsive, and intuitive front-end that effectively showcases the company’s product catalog and enhances its digital presence.",
+    url: "https://www.upichem.com/",
+    previewImage: ProjectUpi,
+    technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
   },
+  // {
+  //   name: "Braxton",
+  //   description:
+  //     "personal portfolio project for a designer is a professional website aimed at showcasing the designer's skills, past projects",
+  //   url: "https://othmaneedakiri.github.io/braxton/",
+  //   previewImage: ProjectBraxton,
+  //   technologies: ["React", "Tailwindcss", "ShadCN"],
+  // },
+  // {
+  //   name: "Everstore",
+  //   description:
+  //     "Everstore is a modern and user-friendly platform where you can easily browse, purchase, and manage shoes.",
+  //   url: "https://www.linkedin.com/feed/update/urn:li:activity:7239740844394573824/",
+  //   previewImage: ProjectEverstore,
+  //   technologies: [
+  //     "React",
+  //     "Laravel",
+  //     "Larvel/breeze",
+  //     "Tailwindcss",
+  //     "ShadCN",
+  //   ],
+  // },
   // {
   //   name: "Ebook",
   //   description:
