@@ -35,6 +35,7 @@ import {
   LogoNextJs,
   LogoNextJsLight,
   Postgresql,
+  ProjectBookWise
 } from "@/assets";
 import { Github, Linkedin } from "lucide-react";
 
@@ -197,6 +198,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    name: "Book Wise",
+    description:
+      "University library management system, allowing online book borrowing and providing an admin space to manage users and books.",
+    url: "https://github.com/OthmaneEdakiri/book-wise ",
+    previewImage: ProjectBookWise,
+    technologies: ["NextJs", "ShadCN", "Laravel", "MySql"],
+  },
+  {
     name: "BiglarKinyan Design",
     description:
       "A professional website developed during my internship at Company Highness for a luxury interior design firm, featuring a clean and elegant layout that highlights completed projects and services offered.",
@@ -212,22 +221,22 @@ export const PROJECTS = [
     previewImage: ProjectDLK,
     technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
   },
-  {
-    name: "Silsource",
-    description:
-      "A website developed during my internship at Highness for Silsource™ Inc., showcasing their expertise in product sourcing and tailored solutions through a modern, user-friendly design.",
-    url: "https://www.silsource.com/",
-    previewImage: ProjectSilsource,
-    technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
-  },
-  {
-    name: "UPI",
-    description:
-      "A custom website developed during my internship at Highness for a leading wholesale distributor of chemical products. The project focused on creating a modern, responsive, and intuitive front-end that effectively showcases the company’s product catalog and enhances its digital presence.",
-    url: "https://www.upichem.com/",
-    previewImage: ProjectUpi,
-    technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
-  },
+  // {
+  //   name: "Silsource",
+  //   description:
+  //     "A website developed during my internship at Highness for Silsource™ Inc., showcasing their expertise in product sourcing and tailored solutions through a modern, user-friendly design.",
+  //   url: "https://www.silsource.com/",
+  //   previewImage: ProjectSilsource,
+  //   technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
+  // },
+  // {
+  //   name: "UPI",
+  //   description:
+  //     "A custom website developed during my internship at Highness for a leading wholesale distributor of chemical products. The project focused on creating a modern, responsive, and intuitive front-end that effectively showcases the company’s product catalog and enhances its digital presence.",
+  //   url: "https://www.upichem.com/",
+  //   previewImage: ProjectUpi,
+  //   technologies: ["Html", "CSS", "Tailwindcss", "JQuery"],
+  // },
   // {
   //   name: "Braxton",
   //   description:

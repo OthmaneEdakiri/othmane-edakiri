@@ -35,7 +35,8 @@ import ProjectUpi from "@/assets/project-upi.jpg";
 import LogoNextJs from "@/assets/logos/icon-nextjs.svg";
 import LogoNextJsLight from "@/assets/logos/logo-next-js-light.svg";
 import Postgresql from "@/assets/logos/logo-postgresql.svg"
-import aboutImage from "@/assets/othmane.png"
+import aboutImage from "@/assets/othmane.jpg"
+import ProjectBookWise from "@/assets/project-book-wise.jpg"
 
 export {
   heroImage,
@@ -75,5 +76,6 @@ export {
   LogoNextJs,
   LogoNextJsLight,
   Postgresql,
-  aboutImage
+  aboutImage,
+  ProjectBookWise
 };
